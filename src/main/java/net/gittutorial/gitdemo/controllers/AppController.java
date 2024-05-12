@@ -17,7 +17,7 @@ public class AppController {
     }
 
     @GetMapping("/test3")
-    public String test2(){
+    public String test3(){
         return "3rd commit in main branch";
     }
 
