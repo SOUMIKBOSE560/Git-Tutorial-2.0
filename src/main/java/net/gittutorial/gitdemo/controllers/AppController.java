@@ -21,4 +21,8 @@ public class AppController {
         return "3rd commit in main branch";
     }
 
+    @GetMapping("/test4")
+    public  String test4(){
+        return "2nd commit on feature-1 branch";
+    }
 }
