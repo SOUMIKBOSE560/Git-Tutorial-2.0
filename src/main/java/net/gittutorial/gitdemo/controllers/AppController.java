@@ -25,4 +25,9 @@ public class AppController {
     public  String test4(){
         return "2nd commit on feature-1 branch";
     }
+
+    @GetMapping("/test5")
+    public  String test5(){
+        return "3rd commit on feature-1 branch";
+    }
 }
